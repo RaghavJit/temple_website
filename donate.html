@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header with Image</title>
+    <link rel="stylesheet" href="./styles/structure.css">
+    <link rel="stylesheet" href="./styles/donate.css">
+</head>
+<body>
+    <header>
+        <img src="./assets/header.jpg" alt="Header Image">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="donate.html">Donate</a></li>
+                <li><a href="members.html">Members</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <button onclick="togglePayment()">Toggle Payment Method</button>
+
+        <section class="container">
+            <div id="google_pay">
+                <img src="./assets/header.jpg" alt="qr">
+            </div>    
+
+            <div id="bank_details">
+                <table>
+                    <tr>
+                        <td><b>Bank Name</b></td><td>huehue bank</td>
+                    </tr>
+                    <tr>
+                        <td><b>Branch Name</b></td><td>huehue branch</td>
+                    </tr>
+                    <tr>
+                        <td><b>Account Name</b></td><td>huehue name</td>
+                    </tr>
+                    <tr>
+                        <td><b>Account Numeber</b></td><td>123456789</td>
+                    </tr>
+                    <tr>
+                        <td><b>IFSC Code</b></td><td>98721</td>
+                    </tr>
+                </table>
+            </div>   
+        </section> 
+    </main>
+
+    <footer>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Mahakali Sidhpeeth Narayni Mandir. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="./scripts/effects.js"></script>
+</body>
+</html>

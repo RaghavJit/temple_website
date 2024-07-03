@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header with Image</title>
+    <link rel="stylesheet" href="./styles/structure.css">
+    <link rel="stylesheet" href="./styles/gallery.css">
+</head>
+<body>
+    <header>
+        <img src="./assets/header.jpg" alt="Header Image">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="donate.html">Donate</a></li>
+                <li><a href="members.html">Members</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <h2 style="text-align: center;"> Gallery </h2>
+
+    <section class="main_image">
+        <img id="H" src="./assets/header.jpg" alt="Main">
+        <img id="M" src="./assets/header.jpg" alt="Main">
+        <img id="B" src="./assets/header.jpg" alt="Main">
+
+    </section>
+
+    <main>
+        <section class="gallery-event">
+            <h3>Event Name</h3>
+            <div class="carousel-container">
+                <button class="carousel-btn prev-btn" onclick="updateCarousel('<', this)">&lt;</button>
+                <div class="carousel">
+                    <div class="carousel-images">
+                        <img src="./assets/header.jpg" alt="1">
+                        <img src="./assets/header.jpg" alt="2">
+                        <img src="./assets/header.jpg" alt="3">
+                        <img src="./assets/header.jpg" alt="4">
+                        <img src="./assets/header.jpg" alt="5">
+                    </div>
+                </div>
+                <button class="carousel-btn next-btn" onclick="updateCarousel('>', this)">&gt;</button>
+            </div>
+        </section>
+
+        <section class="gallery-event">
+            <h3>Event Name</h3>
+            <div class="carousel-container">
+                <button class="carousel-btn prev-btn" onclick="updateCarousel('<', this)">&lt;</button>
+                <div class="carousel">
+                    <div class="carousel-images">
+                        <img src="./assets/header.jpg" alt="1">
+                        <img src="./assets/header.jpg" alt="2">
+                        <img src="./assets/header.jpg" alt="3">
+                        <img src="./assets/header.jpg" alt="4">
+                        <img src="./assets/header.jpg" alt="5">
+                    </div>
+                </div>
+                <button class="carousel-btn next-btn" onclick="updateCarousel('>', this)">&gt;</button>
+            </div>
+        </section>
+
+    </main>
+    
+    <footer>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Mahakali Sidhpeeth Narayni Mandir. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="./scripts/carousel.js"></script>
+</body>
+</html>
