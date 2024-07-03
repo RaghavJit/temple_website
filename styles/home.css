@@ -92,26 +92,25 @@
 .event {
     width: 100%;
     position: relative;
+    margin: 0px 10px 0px 10px;
+    padding: 0px;
 }
 
 .event-title{
-    float: left;
     border-right: #333 solid 3px;
-    margin: 10px;
-    padding: 10px;
+    width: 20%;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    height: 30px;
 }
 
 .event-excerpt {
-    float: left;
-    margin: 10px;
-    padding: 10px;
-}
-
-.event-expand {
+    width: calc(80% - 3px);
     float: right;
-    margin: 10px;
-    padding: 10px;
-    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    height: 30px;
 }
 
 .event-info {
@@ -120,11 +119,12 @@
     height: 0;
     opacity: 0;
     overflow: hidden;
+    margin: 0px 10px 0px 10px;
     transition: all 0.5s ease; 
 }
 
 .event-info.show {
-    height: 100px; 
+    height: 80px; 
     opacity: 1;
     overflow-y: auto;
 }

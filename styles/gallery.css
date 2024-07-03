@@ -4,7 +4,7 @@ header {
 
 nav {
     bottom: auto;
-    top: 50px;
+    top: 8vh;
 }
 
 .main_image {
@@ -19,8 +19,8 @@ nav {
 }
 
 #H, #B {
-    
     width: 25%;
+    margin-bottom: 0px;
 }
 
 .gallery-event {
