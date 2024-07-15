@@ -1,0 +1,37 @@
+:root {
+    /*Headings*/
+    --heading1: 2rem;
+    --heading2: 1.75rem;
+    --body-text: 1rem;
+
+    /*Paddings*/
+    --padding-smol: 10px;
+    --padding-big: 15px;
+
+    /*Margin*/
+    --margin-smol: 10px;
+    --margin-big: 15px;
+
+    /*Color pallet*/
+    --bg-color: black;
+    --fg-color: black;
+    --text-color: black;
+    --text-special: black;
+    --accent-color: black;
+    --accent-special: black;
+    --sementic-color: black;
+    --sementic-special: black;
+
+    --border-radius: 15px;
+}
+
+@media (min-width: 768px) {
+    :root {
+    }
+}
+
+@media (min-width: 1024px) {
+    :root {
+    }
+}
+
