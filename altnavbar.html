@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alt Navbar</title>
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            font-family: sans-serif;
+        }
+        a{
+            color: black;
+        }
+        nav{
+            margin-top: 25px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 1px solid black;
+            border-radius: 1em;
+            gap: 5px;
+            width: min(100%, 800px);
+
+        }
+        .temple{
+
+            width: 100%;
+            border-radius: 1em;
+            padding: 1em;
+            background-color: #f0f0f0;
+        }
+        .temple a{
+            font-weight: 700;
+            font-size: 20pt;
+        }
+        .links{
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            border-radius: 1em;
+            flex-wrap: wrap;
+            padding: 5px;
+        }
+        .links a{
+            padding: 5px 20px;
+            border-radius: 1em;
+        }
+        .links a:hover{
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+<center>
+
+    <nav>
+        <div class="temple">
+            <a href="index.html">Hanuman Mandir</a>
+        </div>
+        <div class="links">
+            <a href="gallery.html">Gallery</a>
+            <a href="donate.html">Donate</a>
+            <a href="members.html">Members</a>
+            <a href="about.html">About</a>
+        </div>
+    </nav>
+</center>
+</body>
+</html>
