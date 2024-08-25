@@ -1,8 +1,8 @@
 :root {
     /*Headings*/
-    --heading1: 2rem;
-    --heading2: 1.75rem;
-    --body-text: 1rem;
+    --heading1: 1.7rem;
+    --heading2: 1rem;
+    --body-text: 0.8rem;
 
     /*Paddings*/
     --padding-smol: 10px;

@@ -26,3 +26,12 @@ nav {
     padding-left: 10px;
     padding-right: 10px;
 }
+
+@media (max-width: 570px) {
+    .member_card img{
+        width: 100%;
+    }
+    .member_card{
+        flex-direction: column;
+    }
+}
