@@ -29,6 +29,8 @@ nav {
     flex-direction: column;
     display: flex;
     align-items: center;
+    background-color: var(--fg-color);
+    font-size: var(--heading4);
 }
 
 .carousel-container {

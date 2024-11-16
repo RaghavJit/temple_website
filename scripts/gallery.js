@@ -16,3 +16,13 @@ function updateCarousel(direction, scroll_button){
     }
     
 }
+
+document.addEventListener('scroll', function() {
+    const navbar = document.querySelector('nav');
+
+    if (window.scrollY >= 70) {
+        navbar.classList.add('full');
+    } else {
+        navbar.classList.remove('full');
+    }
+});

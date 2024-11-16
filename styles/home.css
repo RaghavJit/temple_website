@@ -1,12 +1,17 @@
 @import url(variables.css);
 
+.site-name{
+    font-size: var(--heading1);
+}
+
 .about {
-    width: 50%;
+    width: 70%;
     align-items: center;
-    translate: 50%;
+    translate: 22%;
     opacity: 0;
     transform: translateY(20px);
     transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    font-size: var(--heading2);
 }
 
 .about.visible {
@@ -27,6 +32,19 @@
     opacity: 0;
     transform: translateY(25px);
     transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    background-color: var(--fg-color);
+    color: var(--text-color);
+    font-size: var(--heading2);
+}
+
+.cards img{
+    margin: 5px;
+    padding: 5px;
+}
+
+.cards p{
+    margin: 0 0 5px 0;
+    padding: 0 0 5px 0;
 }
 
 .cards.visible {
@@ -96,6 +114,7 @@
     position: relative;
     margin: 0px 10px 0px 10px;
     padding: 0px;
+    background-color: var(--fg-color);
 }
 
 .event-title{
@@ -123,6 +142,7 @@
     overflow: hidden;
     margin: 0px 10px 0px 10px;
     transition: all 0.5s ease; 
+    background-color: var(--accent-color);
 }
 
 .event-info.show {

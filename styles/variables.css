@@ -1,23 +1,25 @@
 :root {
     /*Headings*/
-    --heading1: 1.7rem;
-    --heading2: 1rem;
+    --heading1: 3rem;
+    --heading2: 1.7rem;
+    --heading3: 1.5rem;
+    --heading4: 1rem;
     --body-text: 0.8rem;
 
     /*Paddings*/
     --padding-smol: 10px;
-    --padding-big: 15px;
+    --padding-big: 50px;
 
     /*Margin*/
     --margin-smol: 10px;
     --margin-big: 15px;
 
     /*Color pallet*/
-    --bg-color: black;
-    --fg-color: black;
-    --text-color: black;
-    --text-special: black;
-    --accent-color: black;
+    --bg-color: #121111;
+    --fg-color: #050847;
+    --text-color: #ccc8c8;
+    --text-special: #faf141;
+    --accent-color: #db170d;
     --accent-special: black;
     --sementic-color: black;
     --sementic-special: black;
